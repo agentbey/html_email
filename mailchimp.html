@@ -1,0 +1,464 @@
+<!DOCUTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta property="og:title" content="*|MC:SUBJECT|*">
+		<title>*|MC:SUBJECT|*</title>
+		<!-- stylesheet -->
+		<style type="text/css">
+			h1,h2,h3,h4,h5,h6,p {
+				font-family: "Lato", sans-serif;
+			}
+			body {
+				line-height: 1;
+			}
+			ol, ul {
+				list-style: none;
+			}
+			strong {
+				font-weight: 400;
+			}
+			a {
+				text-decoration: none;
+				color: #03C;
+			}
+			blockquote, q {
+				quotes: none;
+			}
+			blockquote:before, blockquote:after,
+			q:before, q:after {
+				content: '';
+				content: none;
+			}
+			table {
+				border-collapse: collapse;
+				border-spacing: 0;
+			}
+			body {
+				background: #f1f1f1;
+			}
+			#wrap-layer-one, 
+			#wrap-layer-two, 
+			#wrap-layer-three {
+				overflow: hidden;
+				width: 100%;
+				margin: 0;
+				padding: 0;
+			}
+			#wrap-top,
+			#wrap-main,
+			#wrap-bottom {
+				width: 600px;
+				margin: 0 auto;
+				padding: 0;
+				overflow: hidden;
+			}
+			#wrap-top {
+				background: #36A9E1;
+			}
+			#wrap-bottom {
+				background: #36A9E1;
+			}
+			#wrap-layer-one {
+				background: #e1e1e1;
+			}
+			.logo-left {
+				margin: 0 0 0 30px;
+				padding: 25px 0;
+				float: left;
+				font-family: "Montserrat",sans-serif;
+				font-weight: 700;
+				font-size: 25px;
+			}
+			.logo-left a {
+				color:#ffffff;
+			}
+			.logo-right {
+				color: #ffffff;
+				font-family: "Lato", sans-serif;
+				float: right;
+				font-size: 12px;
+				font-weight: 300;
+				margin: 0 30px 0 0;
+				padding: 33px 0 0 0;
+			}
+			.logo-right a {
+				color: #ddd;
+				font-size: 12px;
+				text-decoration: none;
+			}
+			#wrap-layer-two {
+				background: transparent;
+			}
+			#wrap-main {
+				background: #ffffff;
+			}
+			.layer-large-item,
+			.layer-small-item,
+			.layer-ads-item,
+			.layer-blog-item .post-blog-item {
+				margin: 30px;
+				border-bottom: 1px solid #eaeaea;
+				padding-bottom: 30px;
+				overflow: hidden;
+			}
+			.layer-large-item .post-item {
+				width: 100%;
+			}
+			.layer-large-item .post-item h4, 
+			.layer-small-item .post-item h4, 
+			.layer-blog-item .post-blog-item h4 {
+				margin: 20px 0 0 0;
+				text-transform: uppercase;
+				font-weight: 400;
+				font-size: 17px;
+				display: block;
+				color: #E55D29;
+				letter-spacing: normal;
+			}
+			.layer-blog-item .post-blog-item h4 {
+				margin: 0;
+			}
+			.layer-large-item .post-item p,
+			.layer-small-item .post-item p, 
+			.layer-blog-item .post-blog-item p {
+				font-weight: 300;
+				font-family: "Lato", sans-serif;
+				font-size: 15px;
+				letter-spacing: normal;
+				margin: 10px 0;
+				line-height: 1.3;
+				display: block;
+				color: #333;
+			}
+			.buttons {
+				background: #36A9E1;
+				display: inline-block;
+				color: #ffffff;
+				font-family: "Lato", sans-serif;
+				font-weight: 400;
+				font-size: 12px;
+				margin: 10px 0 0 0;
+				padding: 5px 24px;
+				text-transform: uppercase;
+				text-decoration: none;
+			}
+			.layer-small-item .post-item {
+				width: 256px;
+				display: inline-table;
+			}
+			.layer-small-item .post-item:nth-child(1) {
+				float: left;
+			}
+			.layer-small-item .post-item:nth-child(2) {
+				float: right;
+			}
+			.layer-ads-item .ads-item {
+				width: 160px;
+				display: inline-table;
+			}
+			.layer-ads-item .ads-item:nth-child(2) {
+				margin: 0 25px;
+			}
+			.layer-blog-item .post-blog-item:nth-child(2) {
+				border: 0;
+				padding-bottom: 0;
+			}
+			#wrap-layer-three {
+				background: #e1e1e1;
+			}
+			#layer-bottom {
+				overflow: hidden;
+				width: 100%;
+			}
+			.layer-bottom-social {
+				background: #111111;
+				display: block;
+				overflow: hidden;
+			}
+			.bottom-social-left {
+				color: #FFF;
+				font-family: "Lato", sans-serif;
+				font-weight: 400;
+				margin: 40px 0 30px 30px;
+				float: left;
+				text-transform: uppercase;
+				font-size: 18px;
+			}
+			.bottom-social-right {
+				font-family: "Lato", sans-serif;
+				font-weight: 300;
+				float: right;
+				margin: 20px 30px 30px 0;
+			}
+			.bottom-social-right ul li {
+				display: block;
+				font-family: "Lato", sans-serif;
+				font-weight: 300;
+				float: left;
+				overflow: hidden;
+				margin-left: 10px;
+			}
+			.layer-bottom-menu {
+				display: block;
+				font-family: "Lato", sans-serif;
+				font-weight: 300;
+				overflow: hidden;
+			}
+			.bottom-menu-left {
+				font-family: "Lato", sans-serif;
+				font-weight: 300;
+				float: left;
+				margin: 10px 0 30px 30px;
+				overflow: hidden;
+				width: 350px;
+			}
+			.bottom-menu-left p {
+				font-size: 13px;
+				font-family: "Lato", sans-serif;
+				font-weight: 300;
+				line-height: 1.7;
+				color: #ffffff;
+			}
+			.bottom-menu-left a {
+				font-size: 13px;
+				font-family: "Lato", sans-serif;
+				font-weight: 300;
+				line-height: 1.7;
+				color: #ffffff;
+			}
+			.bottom-menu-right {
+				font-size: 10px;
+				font-family: "Lato", sans-serif;
+				font-weight: 300;
+				line-height: 1.5;
+				color: #ffffff;
+				margin: 30px 30px 30px 0;
+				float: right;
+				overflow: hidden;
+			}
+			.bottom-menu-right ul li {
+				font-family: "Lato", sans-serif;
+				font-weight: 300;
+				margin-bottom: 5px;
+			}
+			.bottom-menu-right ul li a {
+				text-decoration: none;
+				font-size: 14px;
+				font-family: "Lato", sans-serif;
+				font-weight: 300;
+				color: #ffffff;
+				padding: 0 0 0 13px;
+				background: url('http://designismylife.com/html_email/images/bullet.png') 0 3px no-repeat;
+			}
+			.layer-bottom-cred {
+				display: block;
+				font-family: "Lato", sans-serif;
+				font-weight: 300;
+				overflow: hidden;
+			}
+			.bottom-cred-left {
+				font-size: 12px;
+				font-family: "Lato", sans-serif;
+				font-weight: 300;
+				line-height: 1.5;
+				width: 350px;
+				margin: 20px 0 20px 30px;
+				float: left;
+				overflow: hidden;
+				color: #555555;
+			}
+			.bottom-cred-left p {
+				font-size: 12px;
+				font-family: "Lato", sans-serif;
+				font-weight: 300;
+				color: #555555;
+				line-height: 1.5;
+			}
+			.bottom-cred-right {
+				font-size: 12px;
+				font-family: "Lato", sans-serif;
+				font-weight: 300;
+				line-height: 1.5;
+				margin: 20px 30px 20px 0;
+				float: right;
+				overflow: hidden;
+			}
+			.bottom-cred-right ul li {
+				display: block;
+				font-family: "Lato", sans-serif;
+				font-weight: 300;
+				float: left;
+				overflow: hidden;
+				margin-left: 10px;
+			}
+			.bottom-cred-right ul li a {
+				display: block;
+				float: left;
+				overflow: hidden;
+				font-size: 12px;
+				font-family: "Lato", sans-serif;
+				font-weight: 300;
+				color: #555555;
+			}
+			.preheaderContent div{
+				color: #aaa;
+				font-family: "Lato", sans-serif;
+				font-size:10px;
+				line-height:100%;
+			}
+			.preheaderContent div a:link,.preheaderContent div a:visited{
+				color:#ddd;
+				font-family: "Lato", sans-serif;
+				font-weight: 300;
+				text-decoration:none;
+			}
+			#utility div{
+				color:#707070;
+				font-family: "Lato", sans-serif;
+				font-size:12px;
+				font-weight: 300;
+				line-height:125%;
+				text-align:left;
+			}
+			#monkeyRewards img{
+				max-width:160px;
+			}
+
+			@media (max-width: 768px) {
+			#wrap-top, #wrap-main, #wrap-bottom {
+				width: 100%;
+			}
+			.logo-left a {
+				color: #fff;
+				text-align: center;
+				display: block;
+			}
+			
+			.logo-left {
+				margin: 0;
+			}
+			.logo-right {
+				padding: 10px 0;
+			}
+			
+			.buttons {
+				display: block;
+				padding: 10px;
+				text-align: center;
+			}
+			.layer-small-item .post-item:nth-child(1) {
+				margin-bottom: 40px;
+			}		
+			
+			
+			}
+			
+			
+		</style>
+	</head>
+	<body>
+		<div id="wrap-layer-one">
+			<div id="wrap-top">
+				<div class="logo-left">
+					<a href="http://www.designismylife.com">designismylife+</a>
+				</div>
+				<div class="logo-right">
+					<div mc:edit="std_preheader_links" class="preheaderContent"><!-- *|IFNOT:ARCHIVE_PAGE|* -->Having Trouble Viewing it? <a href="*|ARCHIVE|*" target="_blank">View e-mail in browser</a><!-- *|END:IF|* --></div>
+				</div>
+			</div>
+		</div>
+
+		<div id="wrap-layer-two">
+			<div id="wrap-main">
+				<div class="layer-large-item">
+					<div class="post-item" mc:edit="std_content00">
+						<img src="http://designismylife.com/html_email/images/top-template.jpg" width="540px" height="230px" class="img-head-post">
+						<h4>Cultivating Business Success</h4>
+						<p>According to Forbes, the number <strong>1 reason why 8 of 10 businesses fail</strong> is they are not really in touch with customers through deep dialogue.</p>
+						<p> The truth is no one goes into business wanting to fail. However, when businesses operate without principles and values they leave it to chance to win the game.</p>
+						<a href="#" target="_blank" class="buttons">Read More</a>
+					</div>
+				</div>
+
+				<div class="layer-small-item">
+					<div class="post-item" mc:edit="std_content01">
+						<img src="http://designismylife.com/html_email/images/image-item-1.png" width="256px" height="85px" class="img-head-post">
+						<h4>Corsham Technologies</h4>
+						<p>Even though this is a small operation, <strong>Corsham Technologies</strong> is proud to have a logo brand that creates a big presence.</p>
+						<a href="#" target="_blank" class="buttons">Read More</a>
+					</div>
+					<div class="post-item" mc:edit="std_content02">
+						<img src="http://designismylife.com/html_email/images/image-item-2.png" width="256px" height="85px" class="img-head-post">
+						<h4>TrustGo Mobile</h4>
+						<p>We created a global brand for this Chinese company to confidently market their apps to the United States.</p>
+						<a href="#" target="_blank" class="buttons">Read More</a>
+					</div>
+				</div>
+
+				<div class="layer-ads-item">
+					<div class="ads-item" mc:edit="std_content03">
+						<img src="http://designismylife.com/html_email/images/ad_mobile.png" width="540px" height="160px" class="img-head-post">
+					</div>
+				</div>
+
+				<div class="layer-blog-item">
+					<div class="post-blog-item">
+						<h4>About Us</h4>
+						<p><strong>Designismylife</strong> provides full service design and marketing services for business enterprises and non-profit organizations. We are committed to helping our clients develop their brand and marketing strategy. And more importantly engaging their audience.</p>
+
+<p>Visit <a href="http://designismylife.com" target="_blank">designismylife.com</a> for more information.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="wrap-layer-three">
+			<div id="wrap-bottom">
+				<div class="layer-bottom">
+					<div class="layer-bottom-social">
+						<div class="bottom-social-left">
+							Stay Connected
+						</div>
+						<div class="bottom-social-right">
+							<ul>
+								<li><a href="http://www.twitter.com/davidbey"><img src="http://designismylife.com/html_email/images/social/twitter.png" width="32px" height="32px"></a></li>
+								<li><a href="http://www.facebook.com/designismylife"><img src="http://designismylife.com/html_email/images/social/facebook.png" width="32px" height="32px"></a></li>
+								<li><a href="http://www.linkedin.com/davidbey"><img src="http://designismylife.com/html_email/images/social/linkedin.png" width="32px" height="32px"></a></li>
+								<li><a href="*|FORWARD|*"><img src="http://designismylife.com/html_email/images/social/share.png" width="32px" height="32px"></a></li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="layer-bottom-menu">
+						<div class="bottom-menu-left">
+							<p>For new projects, please contact David Bey<br />
+									Email: agent@designismylife.com<br />
+									Skype: agentbey<br />
+									Google Voice: (678) 713 4171</p>
+						</div>
+						<div class="bottom-menu-right">
+							<div mc:edit="monkeyrewards">
+										*|IF:REWARDS|* *|HTML:REWARDS|* *|END:IF|*
+							</div>
+						</div>
+					</div>
+
+					<div class="layer-bottom-cred">
+						<div class="bottom-cred-left">
+							<p>Copyright 2014 <span style="color: #ffffff">designismylife</span>. All Rights Reserved.</p>
+						</div>
+						<div class="bottom-cred-right" id="utility">
+							<ul>
+								<div mc:edit="std_utility">
+									<li><a href="*|ARCHIVE|*">View Online</a></li>
+									<li><a href="*|UNSUB|*">Unsubscribe</a></li>
+								</div>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
